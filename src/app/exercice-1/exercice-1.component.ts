@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-exercice-1',
@@ -16,6 +16,7 @@ export class Exercice1Component implements OnInit {
 
   constructor() {
   }
+  // couleur = 'yellow';
 
   ngOnInit() {
   }
